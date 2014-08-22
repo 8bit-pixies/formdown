@@ -3,7 +3,7 @@
 
 """
 Markdown Spec:
-    name = _____
+    text = _____
     gender = (X) Male () Female
     checklist = [x] item 1 [] item 2 [] item 3
     textbox = [[]]
