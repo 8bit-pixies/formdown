@@ -1,4 +1,4 @@
-# generate forms from markdown
+# generate forms from markup
 # based on the sample spec from [stackoverflow](http://stackoverflow.com/questions/5759661/wiki-or-markdown-like-syntax-for-simple-forms)
 
 """
