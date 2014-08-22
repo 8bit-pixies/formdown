@@ -35,11 +35,9 @@ To use this with datepicker, simply follow the information contained on the [hom
 i.e.
 
 ```js
-<script>
 $(function() {
-$( ".datepicker" ).datepicker();
+  $( ".datepicker" ).datepicker();
 });
-</script>
 ```
 
 Copyright and license
