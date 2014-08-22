@@ -36,6 +36,8 @@ Icon
 .Trashes
 
 
+*.pyc
+
 # Created by http://www.gitignore.io
 
 ### Python ###
