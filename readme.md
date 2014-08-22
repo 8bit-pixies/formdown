@@ -3,6 +3,15 @@ Readme
 
 `formdown` is a markdown inspired markup language for html forms. It is based on the proposed markup on [stackoverflow](http://stackoverflow.com/questions/5759661/wiki-or-markdown-like-syntax-for-simple-forms).
 
+Installation
+------------
+
+To install it in your Python installation run:
+
+```python
+python setup.py install
+```
+
 Format Specification
 --------------------
 
@@ -16,7 +25,7 @@ Using the specification as defined below, we can generate the forms.
 *   `date:datepicker = ________`
 
 ```python
-print parse_form("name=____\ndate:datepicker=_____")
+print formdown.parse_form("name=____\ndate:datepicker=_____")
 ```
 
 Output:
