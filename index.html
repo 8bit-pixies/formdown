@@ -34,6 +34,22 @@
 <p><code>formdown</code> is a markdown inspired markup language for html forms. It is based on the proposed markup on <a href="http://stackoverflow.com/questions/5759661/wiki-or-markdown-like-syntax-for-simple-forms">stackoverflow</a>.</p>
 
 <h2>
+<a name="testing" class="anchor" href="#testing"><span class="octicon octicon-link"></span></a>Testing</h2>
+
+<p>The tests (incomplete) can be run by typing:</p>
+
+<pre><code>nosetests
+</code></pre>
+
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>To install it in your Python installation run:</p>
+
+<div class="highlight highlight-python"><pre><span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span>
+</pre></div>
+
+<h2>
 <a name="format-specification" class="anchor" href="#format-specification"><span class="octicon octicon-link"></span></a>Format Specification</h2>
 
 <p>Using the specification as defined below, we can generate the forms.</p>
@@ -51,7 +67,7 @@
 </li>
 <li>  <code>date:datepicker = ________</code>
 </li>
-</ul><div class="highlight highlight-python"><pre><span class="k">print</span> <span class="n">parse_form</span><span class="p">(</span><span class="s">"name=____</span><span class="se">\n</span><span class="s">date:datepicker=_____"</span><span class="p">)</span>
+</ul><div class="highlight highlight-python"><pre><span class="k">print</span> <span class="n">formdown</span><span class="o">.</span><span class="n">parse_form</span><span class="p">(</span><span class="s">"name=____</span><span class="se">\n</span><span class="s">date:datepicker=_____"</span><span class="p">)</span>
 </pre></div>
 
 <p>Output:</p>
@@ -68,11 +84,9 @@
 
 <p>i.e.</p>
 
-<div class="highlight highlight-js"><pre><span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
-<span class="nx">$</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-<span class="nx">$</span><span class="p">(</span> <span class="s2">".datepicker"</span> <span class="p">).</span><span class="nx">datepicker</span><span class="p">();</span>
+<div class="highlight highlight-js"><pre><span class="nx">$</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nx">$</span><span class="p">(</span> <span class="s2">".datepicker"</span> <span class="p">).</span><span class="nx">datepicker</span><span class="p">();</span>
 <span class="p">});</span>
-<span class="o">&lt;</span><span class="err">/script&gt;</span>
 </pre></div>
 
 <h2>
