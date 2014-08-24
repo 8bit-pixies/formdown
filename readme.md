@@ -61,4 +61,4 @@ $(function() {
 Copyright and license
 ---------------------
 
-Code and documentation copyright 2014 Chapman Siu. Code released under [the MIT license](LICENSE). 
+Code and documentation copyright 2014 Chapman Siu. Code released under [the MIT license](https://github.com/chappers/formdown/blob/master/license.md). 
